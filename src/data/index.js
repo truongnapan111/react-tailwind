@@ -99,3 +99,48 @@ export const dataPortfolio = [
         src: "/image/work-09.0be7dc99.jpg",
     },
 ];
+
+
+export const dataServices = [
+    {
+        iconClass: "flaticon-html",
+        title: "Web Development",
+        description: "I have been working on web design for 10 years."
+    },
+    {
+        iconClass: "flaticon-attach",
+        title: "Branding Identity",
+        description: "We will make you a brand that is catchy and leaves a trace."
+    },
+    {
+        iconClass: "flaticon-vector",
+        title: "Illustrator",
+        description: "I have been working on illustration design for 6 years."
+    },
+    {
+        iconClass: "flaticon-schedule",
+        title: "Fast Delivery",
+        description: "I deliver your business as fast as possible."
+    }
+];
+
+export const dataTestimonials = [
+    {
+        src: "https://html.tavonline.co/mat/default/images/testimonial-2.jpg",
+        name: "April M. Griffin",
+        job: "Founder",
+        text: "Our logo and business card design look great. Thanks Henry"
+    },
+    {
+        src: "https://html.tavonline.co/mat/default/images/testimonial-3.jpg",
+        name: "Larry M. Johnson",
+        job: "Freelancer",
+        text: "Henry is a very creative and talented designer. I do not hesitate to work again."
+    },
+    {
+        src: "https://html.tavonline.co/mat/default/images/testimonial-1.jpg",
+        name: "Jack Garratt",
+        job: "Freelancer",
+        text: "Great designer! he finished our work wonderfully and just in time. thanks for everything."
+    }
+];

@@ -8,7 +8,7 @@ function Portfolio () {
     <>
       <div
         id="portfolio"
-        className="portfolio pt-0 rounded-lg bg-[#fff] mt-[36px] px-[15px] pb-[30px]"
+        className="portfolio pt-0 rounded-md bg-[#fff] mt-[36px] px-[15px] pb-[30px] shadow-[0_2px_92px_#00000012]"
       >
         <section>
           <div className="content-header pt-[12px] px-[15px] mb-[15px]">

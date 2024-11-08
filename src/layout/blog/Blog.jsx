@@ -4,7 +4,7 @@ import { dataBlog } from "../../data";
 
 export default function Blog () {
   return (
-    <div id="blog" className="resume rounded-lg bg-[#fff] mt-[36px] pb-[15px]">
+    <div id="blog" className="resume rounded-md bg-[#fff] mt-[36px] pb-[15px] shadow-[0_2px_92px_#00000012]">
       <section className="pt-0 px-[15px]  pb-[30px]">
         <div className="content-header py-0 px-[15px] mb-[12px]">
           <div className="section-title relative inline-block py-0 px-[3px] mt-[42px] ">

@@ -1,9 +1,11 @@
 import React from "react";
+import { dataServices } from "../../data";
+import Service from "./Service";
 // import Title from "../../components/Title";
 
 function Home () {
   return (
-    <div className="content bg-[#ffffff] rounded-[6px] mt-[36px] text-[#333]">
+    <div className="content bg-[#ffffff] rounded-md mt-[36px] text-[#333] shadow-[0_2px_92px_#00000012]">
       <div id="home" className="home active boxshadow pb-[10px]">
         <div className="row">
           <section className="about-me pb-[45px] pt-[43.5px] px-[30px]">
@@ -38,59 +40,9 @@ function Home () {
                 <h2 className="text-[18px] font-[600] text-[#333] relative z-10">My Services</h2>
               </div>
               <div className="row services-list flex items-stretch justify-between gap-[30px]">
-                <div className="service-item w-[25%]">
-                  <div className="service bg-[#fff] p-5 boxshadow rounded-lg h-full">
-                    <div className="icon">
-                      <i className=" flaticon-html "></i>
-                    </div>
-                    <span className="title text-[14px] font-[500] leading-[30px]">
-                      Web Development
-                    </span>
-                    <p className="little-text text-[#989898] font-[400] leading-[18px] text-[13px]">
-                      I have been working on web design for 10 years.
-                    </p>
-                  </div>
-                </div>
-                <div className="service-item w-[25%]">
-                  <div className="service bg-[#fff] p-5 boxshadow rounded-lg h-full">
-                    <div className="icon">
-                      <i className=" flaticon-attach"></i>
-                    </div>
-                    <span className="title text-[14px] font-[500] leading-[30px]">
-                      Branding Identity
-                    </span>
-                    <p className="little-text text-[#989898] font-[400] leading-[18px] text-[13px]">
-                      We will make you a brand that is catchy and leaves a
-                      trace.
-                    </p>
-                  </div>
-                </div>
-                <div className="service-item w-[25%]">
-                  <div className="service bg-[#fff] p-5 boxshadow rounded-lg h-full">
-                    <div className="icon">
-                      <i className=" flaticon-vector"></i>
-                    </div>
-                    <span className="title text-[14px] font-[500] leading-[30px]">
-                      Illustrator
-                    </span>
-                    <p className="little-text text-[#989898] font-[400] leading-[18px] text-[13px]">
-                      I have been working on illustration design for 6 years.
-                    </p>
-                  </div>
-                </div>
-                <div className="service-item w-[25%]">
-                  <div className="service bg-[#fff] p-5 boxshadow rounded-lg h-full">
-                    <div className="icon">
-                      <i className=" flaticon-schedule"></i>
-                    </div>
-                    <span className="title text-[14px] font-[500] leading-[30px]">
-                      Fast Delivery
-                    </span>
-                    <p className="little-text text-[#989898] font-[400] leading-[18px] text-[13px]">
-                      I deliver your business as fast as possible.
-                    </p>
-                  </div>
-                </div>
+                {dataServices.map((i)=>
+                  <Service iconClass={i.iconClass} title={i.title} description={i.description}/>
+                )}
               </div>
             </section>
           </div>

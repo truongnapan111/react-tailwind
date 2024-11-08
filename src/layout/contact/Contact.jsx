@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div id="contact" className="contact rounded-lg bg-[#fff] mt-[36px]">
+    <div id="contact" className="contact rounded-md bg-[#fff] mt-[36px] shadow-[0_2px_92px_#00000012]">
       <section className="boxshadow">
         <div class="contact-content flex items-stretch justify-between">
           <div class="contact-form w-[50%] px-[30px] pt-[30px] pb-[27px]">

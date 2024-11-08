@@ -113,8 +113,6 @@ code {
 
 .boxshadow {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
-  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
-  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 }
 
 .profile-image {
@@ -209,17 +207,7 @@ ul.profile-information li:last-child {
 
 
 
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -8px;
-} */
-/* .container {
-  padding-right: -15px;
-  padding-left: -15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
+
 .service .icon i:before {
   font-size: 44px;
   margin-left: 0;
@@ -322,35 +310,99 @@ ul.profile-information li:last-child {
     border-bottom: solid 1px #dfdfdf;
   }
 }
+ul.time-line {
+  margin-left: 10px;
+}
+
+.time-line li:first-child {
+  padding: 0 0 60px 19px;
+}
+
 .time-line li {
-  border-left: solid 2px #eee;
+  border-left: 2px solid #ececec;
+  padding: 0 0 40px 30px;
+  list-style: none;
+}
+
+.time-line li:first-child:before {
+  background: 0 0;
+  border: 0;
+  position: relative;
+}
+
+li:before,
+ul.profile-information li:before {
+  border-color: #ffb100;
+}
+
+.time-line li:first-child:before {
+  display: none;
+}
+
+.time-line li:before {
+  content: "";
+  background: #fff;
+  border: 2px solid;
+  border-radius: 50px;
+  width: 8px;
+  height: 8px;
+  margin-top: -1px;
+  margin-left: -35px;
+  font-size: 8px;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+  border-color: #ffb100 !important;
+}
+
+.timeline-title {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .time-line li:first-child i {
   background: #ffc500;
-  padding: 18px 18px;
-  font-size: 16px;
-  border-radius: 100rem;
-  margin: -13px -28px;
 }
 
-.time-line li:not(:first-child)::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border: 2px solid #ffc500;
-  border-radius: 100rem;
-  position: absolute;
-  margin-top: 6px;
-  left: -4px;
-}
-
-.time-line li:first-child h2 {
-  margin-left: 12px;
+.time-line li:first-child i {
+  float: left;
+  text-align: center;
+  background: #ffc500;
+  border-radius: 30px;
+  width: 53px;
+  margin: -13px -45px;
+  padding: 18px 16px;
 }
 
 .time-line li:last-child {
-  border: none;
+  border-left: none;
+}
+
+.time-line li:last-child:before {
+  margin-left: -33px;
+}
+
+.time-line li span {
+  padding: 9px 0;
+  font-size: 12px;
+  display: block;
+  color: #000;
+  height: 36px;
+}
+
+.timeline-title {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.line-title {
+  font-size: 16px;
+  line-height: 6px;
+  font-weight: 500;
 }
 /* responsive */
 

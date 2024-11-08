@@ -22,34 +22,34 @@ export default function Profile() {
           />
         </figure>
         <ul className="profile-information ml-[35px] my-[8px]">
-          <li className="pb-[10px] pl-[30px] relative "></li>
+          <li className="pb-[12px] pl-[30px] relative "></li>
           <li>
             <p className="text-[13.5px] text-[#7f7f7f] leading-[12px]">
-              <span className="text-[#000] pr-[2px]">Name:</span>
-              Chirs Johnson
+              <span className="text-[#000] pr-[3.4px]">Name:</span>
+              Chris Johnson
             </p>
           </li>
           <li>
             <p className="text-[13.5px] text-[#7f7f7f] leading-[12px]">
-              <span className="text-[#000] pr-[2px]">Birthday:</span>
+              <span className="text-[#000] pr-[3.4px]">Birthday:</span>
               06 December 1987
             </p>
           </li>
           <li>
             <p className="text-[13.5px] text-[#7f7f7f] leading-[12px]">
-              <span className="text-[#000] pr-[2px]">Job:</span>
+              <span className="text-[#000] pr-[3.4px]">Job:</span>
               Freelancer
             </p>
           </li>
           <li>
             <p className="text-[13.5px] text-[#7f7f7f] leading-[12px]">
-              <span className="text-[#000] pr-[2px]">Email:</span>
+              <span className="text-[#000] pr-[3.4px]">Email:</span>
               henry@domain.com
             </p>
           </li>
           <li>
             <p className="text-[13.5px] text-[#7f7f7f] leading-[12px]">
-              <span className="text-[#000] pr-[2px]">Skype: </span>
+              <span className="text-[#000] pr-[3.4px]">Skype:</span>
               henryrooney85
             </p>
           </li>
