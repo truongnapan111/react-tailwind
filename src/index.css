@@ -82,7 +82,7 @@ video {
 body {
   /* width: 100vw; */
   font-family: "Roboto", sans-serif;
-  background: url("../../my_cv/public/image/bg.280cef1c.png") #fafafa;
+  background: url("./../public/image/bg.280cef1c.png") #fafafa;
   overflow-x: hidden;
   position: relative;
   line-height: 1.42857143;
@@ -171,7 +171,7 @@ ul.profile-information li:before {
 }
 
 ul.profile-information li:first-child:after {
-  background: url(../../my_cv/public/image/glasses.3e8381e1.png) no-repeat;
+  background: url('../public/image/glasses.3e8381e1.png') no-repeat;
   background-size: 27px 10px;
 }
 
