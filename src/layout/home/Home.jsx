@@ -34,7 +34,7 @@ function Home () {
             </p>
           </section>
           <div className="row">
-            <section className="services bg-[#fafafa] py-[48.5px] px-[30px]">
+            <section className="services py-[48.5px] px-[30px]">
               <div className="section-title relative inline-block py-0 px-[3px] mb-[42.5px] text-[#333]">
                 <span className="bg-[#ffb100] absolute h-[7px] w-full opacity-[0.4] left-0 bottom-[3px]"></span>
                 <h2 className="text-[18px] font-[600] text-[#333] relative z-10">My Services</h2>
