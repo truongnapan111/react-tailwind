@@ -50,23 +50,23 @@ function Contact() {
             </div>
             <ul>
               <li className="text-[14px] text-[#787878] leading-[34px]">
-                <span className="text-[#000] pr-[5px]">Address:</span>
+                <span className="text-[#000] pr-[3.5px]">Address:</span>
                 107727 Santa Monica Boulevard Los Angeles
               </li>
               <li className="text-[14px] text-[#787878] leading-[34px]">
-                <span className="text-[#000] pr-[5px]">Phone:</span>
+                <span className="text-[#000] pr-[3.5px]">Phone:</span>
                 +38 012-3456-7890
               </li>
               <li className="text-[14px] text-[#787878] leading-[34px]">
-                <span className="text-[#000] pr-[5px]">Job:</span>
-                Freelancee
+                <span className="text-[#000] pr-[3.5px]">Job:</span>
+                Freelancer
               </li>
               <li className="text-[14px] text-[#787878] leading-[34px]">
-                <span className="text-[#000] pr-[5px]">E-mail:</span>
+                <span className="text-[#000] pr-[3.5px]">E-mail:</span>
                 chris@domain.com
               </li>
               <li className="text-[14px] text-[#787878] leading-[34px]">
-                <span className="text-[#000] pr-[5px]">Skype:</span>
+                <span className="text-[#000] pr-[3.5px]">Skype:</span>
                 chrisjohnson85
               </li>
               <li className="text-[14px] text-[#787878] mt-[14px] leading-[34px]">

@@ -34,7 +34,7 @@ function Home () {
             </p>
           </section>
           <div className="row">
-            <section className="services py-[48.5px] px-[30px]">
+            <section className="services bg-[#fafafa] py-[48.5px] px-[30px]">
               <div className="section-title relative inline-block py-0 px-[3px] mb-[42.5px] text-[#333]">
                 <span className="bg-[#ffb100] absolute h-[7px] w-full opacity-[0.4] left-0 bottom-[3px]"></span>
                 <h2 className="text-[18px] font-[600] text-[#333] relative z-10">My Services</h2>
@@ -49,7 +49,7 @@ function Home () {
 
           <div className="row skill sm:flex items-center justify-between skills">
             <section className=" w-full design-skills px-[30px] pt-[60px] pb-[50px]">
-              <div className="section-title relative inline-block py-0 px-[3px] mb-[45px]">
+              <div className="section-title relative inline-block py-0 px-[3px] mb-[40px]">
                 <span className="bg-[#ffb100] absolute h-[7px] w-full opacity-[0.4] left-0 bottom-[3px]"></span>
                 <h2 className="text-[18px] font-[600] text-[#333] relative z-10">Design Skills</h2>
               </div>
@@ -75,7 +75,7 @@ function Home () {
               </ul>
             </section>
             <section className=" w-full code-skills px-[30px] pt-[60px] pb-[50px]">
-              <div className="section-title relative inline-block py-0 px-[3px] mb-[45px]">
+              <div className="section-title relative inline-block py-0 px-[3px] mb-[40px]">
                 <span className="bg-[#ffb100] absolute h-[7px] w-full opacity-[0.4] left-0 bottom-[3px]"></span>
                 <h2 className="text-[18px] font-[600] text-[#333] relative z-10">Code Skills</h2>
               </div>

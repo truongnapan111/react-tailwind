@@ -2,83 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  background: transparent;
-} */
-
+@layer components{
+  .header{
+    @apply flex justify-between w-full bg-white h-[70px] mb-[30px] rounded-[6px] shadow-[0_2px_92px_#00000012]
+  }
+  .helo{
+    @apply items-center justify-end w-full h-[37px] mt-[18px] mr-[18px] ml-[5px] py-[1px] pl-[19px];
+  }
+  .menu-text{
+    @apply text-[#000] ml-[4px] h-[29px]
+  }
+  .menu-icon{
+    @apply text-[11px] w-6 transition-all hover:text-xs hover:transform;
+  }
+}
 body {
   /* width: 100vw; */
   font-family: "Roboto", sans-serif;
